@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Marefiya Hotel Booking</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body bgcolor="#fefefe">
+  <h3>
+    <a href="index.html"><span><img src="logo.png" width="2%"></span> Marefiya</a>
+  </h3>
+  <center>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="reservation.html">Reservation</a> |
+    <a href="chambers.html">Chambers</a> |
+    <a href="about-us.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</center>
+  <hr>
+  <center>
+  <table>    
+    <tr>
+      <td bgcolor="#eee"  rowspan="2" cellpadding="0" cellspacing="0" border="0" width="100%" >
+        <center><h1>Reservation</h1></center>
+        <div>
+          <h2></h2>
+        
+            <form action="" method="post">
+              <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+              </div>
+              <div>
+                <label for="email">Your E-mail</label>
+                <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+              </div>
+              <div>
+                <label for="phone">Your Phone</label>
+                <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+              </div>
+              <hr>
+              <div>
+                <label for="adult">Adults</label>
+                <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+              </div>
+              <div>
+                <label for="child">Children</label>
+                <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+              </div>
+              <div>
+                <label for="checkin-date">Check-in Date</label>
+                <input type="date" id="checkin-date" name="checkin" required>
+              </div>
+              <div>
+                <label for="checkout-date">Check-out Date</label>
+                <input type="date" id="checkout-date" name="checkout" required>
+              </div>
+              <div>
+                <label for="room-selection">Select Room Preference</label>
+                <select id="room-selection" name="room_preference" required>
+                    <option value="">Choose a Room from the List</option>
+                    <option value="connecting">Connecting</option>
+                    <option value="adjoining">Adjoining</option>
+                    <option value="adjacent">Adjacent</option>
+                </select>
+              </div>
+              <hr>
+              <div>
+                <label for="message">Anything Else?</label>
+                <textarea rows="3" id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+              </div>
+              <br>
+              <button type="submit">Book The Rooms</button>
+            </form>
+          
+          <div>
+          <br>
+          <h3>Most-booked hotels in Addis Ababa in the past month</h3>
+          
+          <br><br><br>
+          </div>
+        </div>
+      </td>
+      
+    </tr>
+  </table>
+</center>
+
+  <table>
+    <tr>
+      <td>
+      <img src="goldn.webp" width="100%">
+      </td>
+      <td>
+        <img src="hotel2.webp" width="100%">
+        </td>
+        <td>
+          <img src="img4.jpg" width="100%">
+          </td>
+          <td>
+            <img src="img4.jpg" width="100%">
+            </td>
+        </tr> <tr>
+          <td>
+            Golden Hotel
+            </td>
+            <td>
+              Capital Hotel
+              </td>
+            <td>
+              Sharaton Addis
+              </td>
+              <td>
+                Sharaton Addis
+                </td>
+            </tr>
+  </table>
+  <footer>
+    <table bgcolor="#111" color="#fff" cellpadding="0" cellspacing="0" border="0" width="100%" >
+      <tbody>
+        <tr>
+          <td rowspan="2" align="center">
+        <p >  <font color="#fff"> <b>© 2022 Section B Group 4</b><br>
+        Email: <a href="mailto:hege@example.com">marefiya@gmail.com</a>
+        &nbsp;&nbsp;&nbsp;
+        Phone: <a href="tel:0912345678">+251912345678</a>
+        </font>
+      </p>
+      </td>
+      </tr>
+      </tbody>
+    </table>
+  </footer>
+</body>
+
+</html>
