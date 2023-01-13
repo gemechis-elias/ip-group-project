@@ -1,290 +1,314 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Home Rental Service">
-    <meta name="keywords" content="Home, rent, book">
-  <title>MAREFIYA HOTEL</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>marefiya booking</title>
 </head>
-
 <body>
-  <!--Header(start)-->
-  <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor=#487048">
-    <tr>
-      <td>
-        <table border="0" cellpadding="2" cellspacing="0" width="90%" align="center" >
-          <tr>
-            <td>
-              <!--leaving a small space before logo-->
-            </td>
 
-            <td>
-              <img src="images/logo-no-background.png", width="100px", alt="Logo">
-            </td>
+<table id="header" border="0" width="100%"  cellpadding="0" cellspacing="0" bgcolor=#487048">
+		<tr>
+			<td>
+				<table border="0" cellpadding="2" cellspacing="0" width="90%" align="center" >
+					<tr>
+						<td>
+							<!--leaving a small space before logo-->
+						</td>
 
-            <td width="15%">
-              <!--leaving space after logo-->
-            </td>
+						<td>
+							<img src="logo-no-background.png", width="100px", alt="Logo">
+						</td>
 
-            <td>
-              <a href="index.html">
-                <font face="Verdana" size="5" color=white>
-                  Home
-                </font>
-              </a>
-            </td>
+						<td width="15%">
+							<!--leaving space after logo-->
+						</td>
 
-            <td>
-              <a href="reservation.html">
-                <font face="Verdana" size="5" color=white>
-                  Reservation
-                </font>
-              </a>
-            </td>
-            <td>
-              <a href="chambers.html">
-                <font face="Verdana" size="5" color=white>
-                  Chambers
-                </font>
-              </a>
-            </td>
-            <td>
-              <a href="event.html">
-                <font face="Verdana" size="5" color=white>
-                  Events
-                </font>
-              </a>
-            </td>
-              
+						<td>
+							<a href="#home">
+							<a href="index,html">
+								<font face="Verdana" size="5" color=white>
+									Home
+								</font>
 
+						</td>
+
+						<td>
+							<a href="#about">
+							<a href="about-us.html">
+								<font face="Verdana" size="5" color=white>
+									About
+								</font>
+
+						</td>
+
+						<td>
+							<a href="#certeficate">
+							<a href="chambers.html">
+								<font face="Verdana" size="5" color=white>
+									Chambers
+								</font>
+							</a>
+						</td>
             <td>
-              <a href="about-us.html">
-                <font face="Verdana" size="5" color=white>
-                  About
-                </font>
-              </a>
-            </td>
+							<a href="#certeficate">
+							<a href="event.html">
+								<font face="Verdana" size="5" color=white>
+									Events
+								</font>
+
+						</td>
+
+						<td>
+							<a href="#contact">
+							<a href="contact.html>
+								<font face="Verdana" size="5" color=white>
+									Contact
+								</font>
+							</a>
+						</td>
+            <td>
+							
+						</td>
+
+						
+							
+						</td>
             
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <!--Header(end)-->
-  <br>
-  <br>
-  <table align="center">    
-    <tr>
-      <td bgcolor="#eee"  rowspan="2" cellpadding="0" cellspacing="0" border="0" width="100%" >
-        <center><h1>Reservation</h1></center>
-        <div>
-          <h2></h2>
-        
-            <form action="" method="post">
-              <div>
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
-              </div>
-              <div>
-                <label for="email">Your E-mail</label>
-                <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
-              </div>
-              <div>
-                <label for="phone">Your Phone</label>
-                <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
-              </div>
-              <hr>
-              <div>
-                <label for="adult">Adults</label>
-                <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
-              </div>
-              <div>
-                <label for="child">Children</label>
-                <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
-              </div>
-              <div>
-                <label for="checkin-date">Check-in Date</label>
-                <input type="date" id="checkin-date" name="checkin" required>
-              </div>
-              <div>
-                <label for="checkout-date">Check-out Date</label>
-                <input type="date" id="checkout-date" name="checkout" required>
-              </div>
-              <div>
-                <label for="room-selection">Select Room Preference</label>
-                <select id="room-selection" name="room_preference" required>
-                    <option value="">Choose a Room from the List</option>
-                    <option value="connecting">Connecting</option>
-                    <option value="adjoining">Adjoining</option>
-                    <option value="adjacent">Adjacent</option>
-                </select>
-              </div>
-              <hr>
-              <div>
-                <label for="message">Anything Else?</label>
-                <textarea rows="3" id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
-              </div>
-              <br>
-              <button type="submit">Book The Rooms</button>
-            </form>
-          
-          <div>
-          <br>
-          
-          
-          <br><br><br>
-          </div>
-        </div>
-      </td>
-      
-    </tr>
-  </table>
-  <br>
-  <hr>
-    <!--contact(start)-->
-<table id="contact" border="0" width="100%"
-cellpadding="0" cellspacing="0" >
-</tr>
-  <tr>
-  <td>
-    <table border="0" cellpadding="15"
-      cellspacing="0" width="90%" align="center">
-      <tr align="center">
-        <td width="13%" valign="top">
-          <font face="Verdana" size="4" color="black">
-            
-            <br>
-          </font>
-          <br>
-          <img src="images/icons/github.png" alt="github logo" width="40px">
-          <a href="#">
-            <font face="Verdana" size="4" color="#b6212f">
-              github/marefiya
-            </font>
-          </a>
-        </td>
-        <td>
-          |
-        </td>
-
-        <td width="13%" valign="top">
-          <font face="Verdana" size="4" color="black">
-            
-            <br>
-          </font>
-          <br>
-          <img src="images/icons/twitter.png" alt="twitter logo" width="40px">
-          <a href="#">
-            <font face="Verdana" size="4" color="#b6212f">
-              @hotelmarefiya
-            </font>
-          </a>
-        </td>
-
-        <td>
-          |
-        </td>
-
-        <td width="13%" valign="top">
-          <font face="Verdana" size="4" color="black">
-             
-            <br>
-          </font>
-          <br>
-          <img src="images/icons/email.png" alt="email logo" width="40px">
-          <a href="#">
-            <font face="Verdana" size="4" color="#b6212f">
-              sales@marefiya.com
-            </font>
-          </a>
-        </td>
-
-        <td>
-          |
-        </td>
-
-        <td width="13%" valign="top">
-          <font face="Verdana" size="4" color="black">
-            
-            <br>
-          </font>
-          <br>
-          <img src="images/icons/logo-no-background.png" alt="github logo" width="40px">
-          <a href="#">
-            <font face="Verdana" size="4" color="#b6212f">
-              www.marefiya.com
-            </font>
-          </a>
-        </td>
-
-        <td>
-          |
-        </td>
-
-        <td width="13%" valign="top">
-          <font face="Verdana" size="4" color="black">
-            
-            <br>
-          </font>
-          <br>
-          <img src="images/icons/instagram.png" alt="instagram logo" width="40px">
-          <a href="#">
-            <font face="Verdana" size="4" color="#b6212f">
-              @marefiyahotel
-            </font>
-          </a>
-        </td>
-
-        <td>
-          |
-        </td>
-
-        <td width="13%" valign="top">
-          <font face="Verdana" size="4" color="black">
-             
-            <br>
-          </font>
-          <br>
-          <img src="images/icons/linkedin.png" alt="LinkedIn logo" width="40px">
-          <a href="#">
-            <font face="Verdana" size="4" color="#b6212f">
-              @marefiya
-            </font>
-          </a>
-        </td>
-      </tr>
-    </table>
-  </td>
-</tr>
-</table>
-<hr>
-<table id="footer" border="0" width="100%"
-    cellpadding="0" cellspacing="0" bgcolor="#33wf1c">
-    <tr>
-      <td>
-        <table border="0" cellpadding="15"
-          cellspacing="0" width="90%" align="center">
-          <tr>
-            <td width="80%" valign="top" align="center">
-              <font face="Verdana"
-                color="#4CAF50" size="4">
-                Copyleft 2022 by group 4, Section B
-              </font>
-            </td>
-
-            <td width="10%">
-       
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <!--Footer2(end)-->
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Header(end)-->
 
 
 
-</body>
-</html>
+
+<table id="book" width="100%" height="80%" cellpadding="0" cellspacing="0" background="signup.jpg"
+ background-size="cover">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center" color="#CD5C5C">
+					<tr>
+						<td>
+							<center>
+								<font face="Verdana" size="10" color="#800000" >
+									<b>MAREFIYA HOTEL RESERVATION FORM</b>
+								</font>
+								<hr color="#FFFFAA" width="90">
+							</center>
+							
+						</td>
+					</tr>
+
+					<tr>
+						<td align="center" valign="top">
+							<table border="0" width="50%" cellspacing="2" cellpadding="5"
+								cellspacing="0" align="center" bgcolor="#CD5C5C">
+								<tr>
+									<td width="40%">
+										<font face="Verdana" size="4"
+											color="#FFFFFF">
+											FULL NAME
+										</font>
+									</td>
+									<td width="40%">
+										<font face="Verdana" size="4"
+											color="black">
+											<input type="text" size="40" placeholder="Full name here">
+										</font>
+									</td>
+								</tr>
+                                <tr>
+									<td width="40%">
+										<font face="Verdana" size="4"
+											color="#FFFFFF">
+											PHONE NUMBER
+										</font>
+									</td>
+									<td width="40%">
+										<font face="Verdana" size="4"
+											color="black">
+											<input type="text" size="40" placeholder="0912 345 678">
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="10%">
+										<font face="Verdana" size="3"
+											color="#FFFFFF">
+											<b>Resarve start date</b>
+										</font>
+									</td>
+									<td width="60%">
+										<font face="Verdana" size="3"
+											color="#FFFFFF">
+											<input type="date" name="strtt" size="40">
+										</font>
+									</td>
+								</tr>
+                                <tr>
+									<td width="10%">
+										<font face="Verdana" size="3"
+											color="#FFFFFF">
+										<b>Reserve end date</b>
+										</font>
+									</td>
+									<td width="60%">
+										<font face="Verdana" size="4"
+											color="#FFFFFF">
+											<input type="date" name="end" size="40">
+										</font>
+									</td>
+								</tr>
+								
+                                  
+                                    <tr>
+                                        <td colspan="2"><p>
+                                            <font face="Verdana" size="4"
+											color="white">
+                                            PAYMENT METHODS</font>
+                                            <br>
+                                            <br>
+                                            <font face="Verdana" size="2"
+											color="black">
+                                           MAREFIYA HOTEL provides you many payment options.you can select your best and suitable method.<br><b>save your time!</b>
+                                            </font>  </p>
+                                            <input type="checkbox" name="" id="chk">
+										
+                                       
+                                            <font face="Verdana" size="2">
+											
+                                               <a href="pay.html"> 
+                                                    <b>
+                                                       via mobile banking(CBE,AWASH AND BIRIHAN BANK)													   
+                                                    </b>
+                                               </a>
+                                               <br>
+                                                <br>
+                                                
+                                            </font>
+											<input type="checkbox" name="" id="chk">
+										
+                                       
+                                            <font face="Verdana" size="2">
+											
+                                               <a href="pay.html"> 
+                                                    <b>
+                                                       via Telebirr													   
+                                                    </b>
+                                               </a>
+                                               <br>
+                                                <br>
+                                                
+                                            </font>
+											<input type="checkbox" name="" id="chk">
+										
+                                       
+                                            <font face="Verdana" size="2">
+                                               <a href="pay.html"> 
+                                                    <b>
+                                                       via cashe there													   
+                                                    </b>
+                                               </a>
+                                               <br>
+                                                <br>
+                                                
+                                            </font>
+											<input type="checkbox" name="" id="chk">
+										
+                                       
+                                            <font face="Verdana" size="2">
+											
+                                               <a href="pay.html"> 
+                                                    <b>
+                                                       via Internet banking													   
+                                                    </b>
+                                               </a>
+                                               <br>
+                                                <br>
+                                                
+                                            </font>
+											<font face="Verdana" size="3"
+											color="black">
+                                                <b>for more join and vist us on</b> 
+                                            
+                                            </font>
+                                        </td>
+                                    </tr>
+                                  
+                                    <tr>
+                                        <td width="10%" colspan="1">
+                                       <img width="25px" src="facebook.png" alt="facebook"
+                                       cellspacing="10px">
+                                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                       <a href="fb.html">
+                                            <font valign="top" color="black" face="Verdana" size="2" >
+                                               
+                                               <b>facebook page</b>
+                                            </font>
+                                       </a>
+                                        
+                                        
+                                                <br>
+                                                <br>
+                                        <img width="25px" src="google.png" alt="google">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="web.html">
+                                            <font valign="top" color="black" face="Verdana" size="2" >
+                                               
+                                                <b>our website</b>
+                                             </font>
+                                        </a>
+                                        
+                                        <br><br>
+                                        <img width="25px" src="apple.png" alt="apple">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                      
+                                        <a href="app.html">
+                                            <font valign="top" color="black" face="Verdana" size="2" >
+                                                
+                                                APP on playstore
+                                            </font>
+                                        </a> 
+                                    </td>
+                                 
+                                </tr>
+                                <tr>
+									<td>
+                                        <font face="Verdana" size="3" color="black">
+                                            <label>your choose!!</label>
+                                        </font>
+									</td>
+                                    <td>
+
+                                        <a href="sucessfull.html">
+											<button type="Submit">
+												<font face="Verdana"
+													size="4" color="#088F8F">
+													<b>RESERVE</b>
+												</font>
+											</button>	
+										</a>
+                                    </td>
+
+								</tr>
+							</table>
+						</td>
+
+					</tr>
+					<tr>
+						<td colspan="2">
+							
+							
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+    </body>
+    </html>
